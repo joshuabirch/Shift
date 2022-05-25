@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -244,6 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      An_liane_1: -4534675069363888279
+      An_liane_5: -7576831882537990316
+      An_liane_0: -3915289111192562753
+      An_liane_3: -2473616992711828011
+      An_liane_2: -4723978032857515917
+      An_liane_4: -2304304412471596726
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
