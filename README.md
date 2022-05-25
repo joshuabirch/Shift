@@ -1,2 +1,2 @@
 # Shift
-testing command line commits with github webhook
+testing command line git with new master/test-branch github webhook
