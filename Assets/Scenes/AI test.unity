@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 855988941}
   m_Layer: 0
   m_Name: Melee-Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,8 +427,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855988940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.07, y: 4.68, z: 0}
-  m_LocalScale: {x: 1.9411, y: 3.1435, z: 1}
+  m_LocalPosition: {x: 5.1, y: 4.6277, z: 0}
+  m_LocalScale: {x: 1.7842591, y: 3.0388217, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
