@@ -16,7 +16,7 @@ TagManager:
   - Weapon
   - Props
   - Background
-  - 
+  - Foreground
   - 
   - 
   - 
@@ -59,4 +59,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2366289807
+    locked: 0
+  - name: Foreground
+    uniqueID: 4279900853
     locked: 0
