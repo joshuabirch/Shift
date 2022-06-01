@@ -13,6 +13,9 @@ public class Idle_Movement : MonoBehaviour
     private Vector3 initScale;
     private bool movingLeft;
 
+    [SerializeField] private float idleDuration;
+    private float idleTimer;
+
     private void Awake()
     {
         initScale = enemy.localScale;
@@ -20,6 +23,7 @@ public class Idle_Movement : MonoBehaviour
     
     private void MoveInDirection(int _direction)
     {
+        idleTimer = 0;
         enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction, initScale.y, initScale.z);
 
         enemy.position =  new Vector3(enemy.position.x + Time.deltaTime * _direction * speed, enemy.position.y, enemy.position.z);
@@ -57,7 +61,10 @@ public class Idle_Movement : MonoBehaviour
 
     private void DirectionChange()
     {
-        movingLeft = !movingLeft;
+        idleTimer += Time.deltaTime;
+
+        if(idleTimer > idleDuration)
+            movingLeft = !movingLeft;
     }
 
 }
